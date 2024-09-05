@@ -44,11 +44,11 @@ Verifica que las tablas y los datos se han creado correctamente.
 
 ## Observaciones
 1. **Creacion de h2**
- - Problema: La base de datos h2 no se conectaba al inicio por el siguiente error: Database: "C:/uUsers/nombreusuario/test" not found, either pre-create it or allow remote database creation (not recomended in secure environments)
-  -Solucion: Crear un archivo en la ruta indicada de nombre test.mv y cambiarle el tipo de archivo a .db
-2. **Incorporar el uso de Lombok al proyecto**
-  -Problema: Debido a que en la lista de tutoriales de Youtube brindados por la catedra no utilizaba Lombok, el problema principal que se presento fue a la hora de utilizar Collecciones, ya que usando Lombok con la etiqueta @Builder no se inicializan las colleciones y esto presentaba el problema de que al usar los arraylist estos no estaban creados con anterioridad
-  -Solucion: Utilizar la etiqueta @Builder.Default esto se soluciona pues ahora si se inicializan las colecciones y no marca error de punteros nulos
+   **Problema**: La base de datos h2 no se conectaba al inicio por el siguiente error: Database: "C:/uUsers/nombreusuario/test" not found, either pre-create it or allow remote database creation (not recomended in secure environments)
+   **Solucion**: Crear un archivo en la ruta indicada de nombre test.mv y cambiarle el tipo de archivo a .db
+3. **Incorporar el uso de Lombok al proyecto**
+   **Problema**: Debido a que en la lista de tutoriales de Youtube brindados por la catedra no utilizaba Lombok, el problema principal que se presento fue a la hora de utilizar Collecciones, ya que usando Lombok con la etiqueta @Builder no se inicializan las colleciones y esto presentaba el problema de que al usar los arraylist estos no estaban creados con anterioridad
+   **Solucion**: Utilizar la etiqueta @Builder.Default esto se soluciona pues ahora si se inicializan las colecciones y no marca error de punteros nulos
 
  
 

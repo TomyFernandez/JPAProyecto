@@ -32,9 +32,6 @@ El objetivo principal de este proyecto es aprender a utilizar las herramientas m
    ```sh
    git clone https://github.com/TomyFernandez/JPAProyecto.git
 2. **Compilar y ejecutar el Proyecto**:
-  cd JPAProyecto
-mvn clean install
-mvn exec:java -Dexec.mainClass="org.example.Main"
 
 3.**Verificar la Base de Datos**:
 
